@@ -64,6 +64,15 @@ public class HomePage {
         clickLink("WYSIWYG Editor");
         return new WysiwygEditorPage (driver);
     }
+    public NestedFramesPage clickNestedPage(){
+        clickLink("Nested Frames");
+        return new NestedFramesPage(driver);
+    }
+
+    public DynamicLoadingPage clickDynamicLoading(){
+        clickLink("Dynamic Loading");
+        return new DynamicLoadingPage(driver);
+    }
 
 
 
